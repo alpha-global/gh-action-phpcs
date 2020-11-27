@@ -10,7 +10,7 @@ https://github.com/rtCamp/action-phpcs-code-review
 
 To add this to your project please add the following code to a phpcs.yml file in your .github/workflows folder at the root of your repository.
 
-
+```
 name: PHPCS check
 ### Trigger
 on: pull_request
@@ -25,3 +25,4 @@ jobs:
           uses: alpha-global/gh-action-phpcs@v1
           with:
             only_changed_files: true
+```
