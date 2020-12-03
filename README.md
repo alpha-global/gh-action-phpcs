@@ -37,6 +37,7 @@ Release Notes:
 
 - Added recognition of a local phpcs file in the root by changing the entrypoint.sh file to add the --standard=phpcs.xml - If you use this version and set the "only_changed_files_:" to true it will observe the local phpcs.xml file AND inspect any changed files outside of any folders set in the phpcs.xml. If you set this flag to false it will only observe what is listed in the root phpcs.xml root and will ignore files changed outside of directories defined here.
 
+@v1.2 - Current
 - Updated the base container to use php:7.3-alpine3.12 and removed the manual install of PHP reducing the container size from 203MB to 83.9MB
 
 TODO:
